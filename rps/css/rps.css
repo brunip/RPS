@@ -1,0 +1,88 @@
+
+
+
+<!--Parker Bruni CS290-->
+
+body{
+    margin: 0px;
+    background-image: url("images/stucco/stucco.png");
+
+}
+
+#header {
+    font-family: Helvetica Narrow, sans-serif;
+    color:#262626;
+    text-align:left;
+    padding:5px;
+    margin: 0px;
+    font-weight: 900;
+    font-size: 250%;
+}
+
+ul.list1 {
+    font-family: Helvetica Narrow, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262626;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+li.list1 {
+    float: right;
+}
+
+li a.list1 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover.list1 {
+    background-color: #111;
+}
+
+ul.list2 {
+    font-family: Helvetica Narrow, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e6e6e6;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+li.list2 {
+    float: left;
+}
+li a.list2 {
+    display: block;
+    color: #4d4d4d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover.list2 {
+    background-color: #111;
+}
+
+
+#footer {    
+    font-family: Helvetica Narrow, sans-serif;
+    color:white;
+    clear:both;
+	position: absolute;
+    text-align:center;
+    padding:14px;
+    bottom: 0px;
+	width: 1650px;
+    background-color: #262626;
+
+}
+
+
